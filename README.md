@@ -45,7 +45,7 @@ logging host {IP of node/container running the program} use-mgmt-port port {port
 !
 ```
 
-The ``{port}`` value needs to be the same value from the ``port:`` line of your ``config.json`` file.<br>
+The ``{port}`` value needs to be the same value from the ``port:`` line of your ``config.json`` file. The ``use-mgmt-port`` parameter is optional. Use it if your ``a10-fluent`` program is running on the same subnet or network that the A10 Thunder device has its Management port connected to. Otherwise it will try and connect using a Data Port.<br>
 This will stop logging on the Thunder in favor of logging on the a10-fluent/fluentd solution.<br>
 <br>
 
