@@ -1,10 +1,10 @@
 # a10-fluent
 An A10 Thunder to Fluentd proxy server
 
-(A10 Logo)[a10-logo-blue.png]&nbsp;&nbsp;&nbsp;&nbsp(Fluent Logo)[fluent.png]<br>
+[A10 Logo](a10-logo-blue.png)&nbsp;&nbsp;&nbsp;&nbsp;[Fluent Logo](fluent.png)<br>
 <br>
 
-This program/Docker Container will take in the logging output from an A10 Thunder device, and "push" it over to a (fluentd)[https://www.fluentd.org/] server.<br>
+This program/Docker Container will take in the logging output from an A10 Thunder device, and "push" it over to a [fluentd](https://www.fluentd.org/) server.<br>
 <br>
 
 ## Installation
@@ -25,14 +25,14 @@ The ``config.json`` file looks like this:
 }
 ```
 
-''debug'' is a value (0 - 10) to set for debugging information to be printed out. Anything above a '7' is pretty verbose.<br>
-''showstart'' is a boolean that prints out and pushes to fluentd a message about the a10-fluent starting.<br>
-''lable'' is the lable used for the records pushed to fluentd.  In this example, they would show up as ``debug.a10``<br>
-''port'' is the local port to listen to for log messages from the A10 Thunder device(s).<br>
-''timeout'' is the timeout value for connecting to the defined ``fluentd`` node. It defaults to 3 seconds.<br>
-''reconnect'' is how long the program waits to try and reconnect to fluentd. it defaults to 60 seconds.<br>
-''fluent_ip'' is the IP address or FQDN of the ``fluentd`` node. It defaults to ``0.0.0.0``<br>
-''fluent_port'' is the IP Port to use when connecting to the ``fluentd`` node. It defaults to ``24224``<br>
+**debug** is a value (0 - 10) to set for debugging information to be printed out. Anything above a '7' is pretty verbose.<br>
+**showstart** is a boolean that prints out and pushes to fluentd a message about the a10-fluent starting.<br>
+**lable** is the lable used for the records pushed to fluentd.  In this example, they would show up as ``debug.a10``<br>
+**port** is the local port to listen to for log messages from the A10 Thunder device(s).<br>
+**timeout** is the timeout value for connecting to the defined ``fluentd`` node. It defaults to 3 seconds.<br>
+**reconnect** is how long the program waits to try and reconnect to fluentd. it defaults to 60 seconds.<br>
+**fluent_ip** is the IP address or FQDN of the ``fluentd`` node. It defaults to ``0.0.0.0``<br>
+**fluent_port** is the IP Port to use when connecting to the ``fluentd`` node. It defaults to ``24224``<br>
 
 ## Thunder Configuration
 There are two lines you need to add to the Thunder configuration:
