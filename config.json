@@ -1,0 +1,10 @@
+{
+  "debug": 0,
+  "showstart": true,
+  "lable": "a10",
+  "port": 5514,
+  "timeout": 3.0,
+  "reconnect": 60000,
+  "fluent_ip": "172.17.0.3",
+  "fluent_port": 24224
+}

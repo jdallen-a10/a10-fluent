@@ -1,0 +1,29 @@
+{
+    "name": "a10-fluentd",
+    "version": "0.1.1",
+    "description": "An A10 Thunder device to fluentd proxy",
+    "author": "John D. Allen <jallen@a10networks.com>",
+    "main": "fluentproxy.js",
+    "keywords": [
+        "fluentd",
+        "Node.JS",
+        "A10 Networks"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/john-a10/a10-fluent.git"
+    },
+    "scripts": {
+        "test": "",
+        "devrun": "nodemon ./fluentproxy.js",
+        "start": "node ./fluentproxy.js"
+    },
+    "dependencies": {
+        "fluent-logger": "^3.4.1",
+        "syslog-server": "^1.0.1"
+    },
+    "devDependencies": {
+        "nodemon": ""
+    },
+    "license": "MIT"
+}
