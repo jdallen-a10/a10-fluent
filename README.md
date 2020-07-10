@@ -45,6 +45,7 @@ logging host {IP of node/container running the program} use-mgmt-port port {port
 !
 ```
 
+The ``{port}`` value needs to be the same value from the ``port:`` line of your ``config.json`` file.<br>
 This will stop logging on the Thunder in favor of logging on the a10-fluent/fluentd solution.<br>
 <br>
 
