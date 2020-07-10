@@ -1,7 +1,7 @@
 # a10-fluent
 An A10 Thunder to Fluentd proxy server
 
-[A10 Logo](a10-logo-blue.png)&nbsp;&nbsp;&nbsp;&nbsp;[Fluent Logo](fluent.png)<br>
+![A10 Logo](a10-logo-blue.png)&nbsp;&nbsp;&nbsp;&nbsp;![Fluent Logo](fluent.png)<br>
 <br>
 
 This program/Docker Container will take in the logging output from an A10 Thunder device, and "push" it over to a [fluentd](https://www.fluentd.org/) server.<br>
