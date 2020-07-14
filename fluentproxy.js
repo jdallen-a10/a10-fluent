@@ -27,7 +27,7 @@ var fluentport = config.fluent_port || 24224;
 var fltimeout = config.timeout || 3.0;
 var flreconnect = config.reconnect || 60000;
 var port = config.port || 514;
-var label = config.lable || "a10";
+var label = config.label || "a10";
 
 if (DEBUG > 7) { console.log(">>>>" + fluentip); }
 

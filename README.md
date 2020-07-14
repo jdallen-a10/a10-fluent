@@ -16,7 +16,7 @@ The ``config.json`` file looks like this:
 {
   "debug": 0,
   "showstart": true,
-  "lable": "a10",
+  "label": "a10",
   "port": 5514,
   "timeout": 3.0,
   "reconnect": 60000,
@@ -27,7 +27,7 @@ The ``config.json`` file looks like this:
 
 **debug** is a value (0 - 10) to set for debugging information to be printed out. Anything above a '7' is pretty verbose.<br>
 **showstart** is a boolean that prints out and pushes to fluentd a message about the a10-fluent starting.<br>
-**lable** is the lable used for the records pushed to fluentd.  In this example, they would show up as ``debug.a10``<br>
+**label** is the label used for the records pushed to fluentd.  In this example, they would show up as ``debug.a10``<br>
 **port** is the local port to listen to for log messages from the A10 Thunder device(s).<br>
 **timeout** is the timeout value for connecting to the defined ``fluentd`` node. It defaults to 3 seconds.<br>
 **reconnect** is how long the program waits to try and reconnect to fluentd. it defaults to 60 seconds.<br>

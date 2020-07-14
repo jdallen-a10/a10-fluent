@@ -1,7 +1,7 @@
 {
   "debug": 0,
   "showstart": true,
-  "lable": "a10",
+  "label": "a10",
   "port": 5514,
   "timeout": 3.0,
   "reconnect": 60000,
