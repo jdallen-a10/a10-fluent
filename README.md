@@ -41,7 +41,8 @@ There are two lines you need to add to the Thunder configuration:
 !
 logging syslog information
 !
-logging host {IP of node/container running the program} use-mgmt-port port {port}
+! logging host {IP of node/container running the program} use-mgmt-port port {port}
+logging host 172.17.0.16 user-mgmt-port port 5514
 !
 ```
 
